@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+<!--CS-->
+
+<head>
+	<style>
+#container
+{
+	margin: 0 auto;
+	width: 100%;
+	background: #fff;
+}
+
+#header
+{
+	background: #FF00FF;
+	padding: 20px;
+}
+
+#header h1 { margin: 0; }
+
+#navigation
+{
+	clear: both;
+	float: left;
+	width: 100%;
+	background: #333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+	position: relative;
+	right:50%
+}
+
+#navigation ul li
+{
+	float: left; 
+	position: relative;
+	left: 50%;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background:  	#FF00FF; }
+
+#content-container
+{
+	float: left;
+	width: 100%;
+	background: #FFF url(layout-two-liquid-background.gif) repeat-y 68% 0;
+}
+#regform
+{
+	text-align:left;
+	margin:50px auto;
+}
+
+}
+
+
+#content
+{
+	clear: middle;
+	float: middle;
+	width: 100%;
+	padding: 40px 0;
+	margin: 0 0 0 4%;
+	margin-top: 10px;
+	display: inline;
+}
+
+#content h2 { margin: 0; }
+
+#aside
+{
+	float: right;
+	width: 26%;
+	padding: 20px 0;
+	margin: 0 3% 0 0;
+	display: inline;
+}
+
+#aside h3 { margin: 0; }
+
+#footer
+{
+    background-color: #F00FF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+</style>
+</head>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<div id="container">
+	<div id="header">
+
+		
+<!--HTML-->	
+<title>sheConnect</title>
+		<h1 align="middle">
+			sheConnect
+		</h1>
+	</div>
+	<div id="navigation">
+		<ul >
+			
+			<li><a href="#">USER REGISTRATION</a></li>
+		</ul>
+	</div>
+	<div id="content-container">
+		<div id="content">
+			<h2 align="center">
+				Register to receive a personal profile, and alert emails on opportunities!
+			</h2>
+		</div>
+		 <div id="regform">
+            <form>
+                <h1>Register</h1>
+                <div class="line"><label for="Name">Name* : </label><input type="text" id="username" /></div>
+                <div class="line" vspace=10><label for="pwd">Password* : </label><input type="password" id="pwd" /></div>
+                <!-- You may want to consider adding a "confirm" password box also -->
+                <div class="line"><label for="Country">Country* : </label><input type="text" id="country" /></div>
+                <div class="line"><label for="dob">Date of Birth : </label><input type="text" id="dob" /></div>
+                <div class="line"><label for="email">Email* : </label><input type="email" id="email" /></div>
+                <div class="line"><label for="edu">Level of Education :</label><input type="text" id="edu" /></div>
+                <div class="line"><label for="add">Occupation : </label><input type="text" id="add" /></div>
+                <div class="line submit"><input type="submit" value="Submit" /></div>
+ 
+ 
+ 
+                <p>Note: Please make sure your details are correct before submitting form and that all fields marked with * are completed!.</p>
+            </form>
+        </div>
+    </body>
+			
+		
+
