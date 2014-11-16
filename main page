@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+<!--CS-->
+
+<head>
+	<style>
+#container
+{
+	margin: 0 auto;
+	width: 100%;
+	background: #fff;
+}
+
+#header
+{
+	background: #FF00FF;
+	padding: 20px;
+}
+
+#header h1 { margin: 0; }
+
+#navigation
+{
+	clear: both;
+	float: left;
+	width: 100%;
+	background: #333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+	position: relative;
+	right:50%
+}
+
+#navigation ul li
+{
+	float: left; 
+	position: relative;
+	left: 50%;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background:  	#FF00FF; }
+
+#content-container
+{
+	float: left;
+	width: 100%;
+	background: #FFF url(layout-two-liquid-background.gif) repeat-y 68% 0;
+}
+
+#content
+{
+	clear: middle;
+	float: middle;
+	width: 100%;
+	padding: 40px 0;
+	margin: 0 0 0 4%;
+	margin-top: 10px;
+	display: inline;
+}
+
+#content h2 { margin: 0; }
+
+#aside
+{
+	float: right;
+	width: 26%;
+	padding: 20px 0;
+	margin: 0 3% 0 0;
+	display: inline;
+}
+
+#aside h3 { margin: 0; }
+
+#containerr {
+    width: 100%;
+    float: left;
+    border: 1px solid orange;
+}
+
+#your-centered-div {
+    max-width: 560px; /* you have to have a size or this method doesn't work */
+    max-height: 315px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footer
+{
+    background-color: #F00FF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+</style>
+</head>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<div id="container">
+	<div id="header">
+
+		
+<!--HTML-->	
+<title>sheConnect</title>
+		<h1 align="middle">
+			sheConnect
+		</h1>
+	</div>
+	<div id="navigation">
+		<ul >
+			<li><a href="#">Home</a></li>
+			<li><a href="file:///C:/Users/rsmith1/Desktop/sheConnect/sheConnectRegistrationForm">Register</a></li>
+			<li><a href="https://groups.google.com/forum/#!forum/sheconnect/new">Forum</a></li>
+			<li><a href="file:///C:/Users/rsmith1/Desktop/sheConnect/sheConnectOpportunities">Opportunities/Events</a></li>
+			<li><a href="file:///C:/Users/rsmith1/Desktop/sheConnect/sheConnectMenteeMentor">Mentors</a></li>
+			<li><a href="file:///C:/Users/rsmith1/Desktop/sheConnect/WeConnectWorldWide">WeConnectWorldWide</a></li>
+			
+			
+		</ul>
+	</div>
+	<div id="content-container">
+		<div id="content">
+			<h2 align="middle">
+				Connecting Girls & Women in Computer Science all Around The World
+			</h2>
+			
+			<p align="middle">
+				<div id= 'container'>
+					<img src= "http://static6.depositphotos.com/1172692/657/v/950/depositphotos_6576231-Happy-mulicultural-girls-around-the-world-vector-illustration.jpg" style="width:304px;height:228px" align="left">
+					<img src= "http://blog.sweetestmemories.com/pix/femalepc.jpg" style="width:304px;height:228px" align="right">
+				</div>
+				sheConnect is an online platform that brings all resources related to women
+				and girls in Computer Science in one place. As a minorty is Computer Science
+				there is still a need for support not only for women to enter these fields, but
+				also to stay. As a result, sheConnect aims to bring these ambitious women
+				together by providing them will all information related to opportunities,
+				scholarships, and events.
+			</p>
+			<div class="containerr" align="middle" vspace=15 >VIDEO OF THE WEEK</div>
+
+			<div class="containerr">
+    
+    		<div class="your-centered-div" align="middle">
+       	     <iframe width="560" height="315" src="https://www.youtube.com/embed/7O0z06YRKHg" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+    </div> 
+</div>
+				
+	
